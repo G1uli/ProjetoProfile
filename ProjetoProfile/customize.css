@@ -1,0 +1,86 @@
+img {
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+body {
+    background-color: grey;
+}
+
+
+
+#profile {
+    background-color: white;
+}
+
+#titulo{
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#nome{
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;    
+}
+
+#resumo{
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;    
+}
+
+#mensagem{
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;    
+}
+
+#caixa {
+    background-color: beige;
+    border-color: black;
+    border-style: solid;  
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
+
+#relogio {
+    background-color: black;
+    color: antiquewhite;
+    box-sizing: content-box;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 100px;
+    height: 30px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+
+#mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    border-width: 1px;
+    border-style: solid;
+    width: 200px;
+    height: 50px;
+}
